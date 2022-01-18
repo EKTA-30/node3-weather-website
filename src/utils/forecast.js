@@ -15,6 +15,7 @@ const forecast = (lat, long ,callback) => {
         actualTemperature : response.body.current.temperature,
         precip : response.body.current.precip,
         location : response.body.location.region,
+        humidity : response.body.current.humidity
     })
    }
     })

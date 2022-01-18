@@ -19,9 +19,9 @@ weatherForm.addEventListener('submit',(e) => {
         messageOne.textContent = error
         }
         else {
-            //console.log(data)
+           // console.log(data)
             messageOne.textContent = data.location
-            messageTwo.textContent = data.weather.description+ ' It is '+data.weather.actualTemperature+ ' degrees Celcius, with a ' +data.weather.precip+' percent chance of rain.';
+            messageTwo.textContent = data.weather.description+ '\n'+ 'It is '+data.weather.actualTemperature+ ' degrees Celcius, and the himidity is '+data.weather.humidity+' percent, with a ' +data.weather.precip+' percent chance of rain.';
         }
     })
 })
