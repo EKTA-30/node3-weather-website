@@ -1,0 +1,48 @@
+ h1{
+     font-size: 64px;
+     color: black;
+     margin-bottom: 12px;
+ }
+ p{
+     color: black;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     letter-spacing: 1px;
+ }
+ img{
+     width: 200px;
+     height: 200px;
+ }
+
+body{
+    color:grey;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+.main-content{
+    flex-grow: 1;
+}
+
+header{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+footer{
+    border-top: 1px grey solid;
+    margin-top: 12px;
+    color: black;
+    background-color: rgb(231, 253, 246);
+    padding: 16px 0;
+   
+}
+
+header a {
+    margin-right: 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
